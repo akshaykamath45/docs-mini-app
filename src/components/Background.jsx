@@ -2,7 +2,7 @@ import React from "react";
 
 const Background = () => {
   return (
-    <div>
+    <div className="w-full h-screen fixed z-[2]">
       <div className="absolute w-full py-10 flex justify-center text-zinc-600 font-semibold text-xl top-[5%]">
         Documents.
       </div>
