@@ -9,25 +9,25 @@ const Foreground = () => {
   const data = [
     {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      fileSize: "0.9Mb",
+      fileSize: "0.4Mb",
       close: true,
       tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
     {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      fileSize: "0.9Mb",
+      fileSize: "0.7Mb",
       close: true,
       tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
     {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      fileSize: "0.9Mb",
+      fileSize: "0.6Mb",
       close: true,
-      tag: { isOpen: true, tagTitle: "Upload", tagColor: "green" },
+      tag: { isOpen: true, tagTitle: "Upload", tagColor: "blue" },
     },
     {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      fileSize: "0.9Mb",
+      fileSize: "0.2Mb",
       close: true,
       tag: { isOpen: false, tagTitle: "Download Now", tagColor: "green" },
     },
