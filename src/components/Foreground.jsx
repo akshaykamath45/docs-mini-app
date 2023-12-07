@@ -1,9 +1,44 @@
 import React from "react";
-
+import Card from "./Card";
 const Foreground = () => {
+  const data = [
+    {
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      fileSize: "0.9Mb",
+      close: true,
+      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
+    },
+    {
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      fileSize: "0.9Mb",
+      close: true,
+      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
+    },
+    {
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      fileSize: "0.9Mb",
+      close: true,
+      tag: { isOpen: true, tagTitle: "Upload", tagColor: "green" },
+    },
+    {
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      fileSize: "0.9Mb",
+      close: true,
+      tag: { isOpen: false, tagTitle: "Download Now", tagColor: "green" },
+    },
+    {
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      fileSize: "0.9Mb",
+      close: false,
+      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "blue" },
+    },
+  ];
+
   return (
-    <div>
-      <div className=" fixed top-0 left-0 z-[3] w-full h-full "></div>
+    <div className=" fixed top-0 left-0 z-[3] w-full h-full flex gap-5 flex-wrap p-10">
+      {data.map((item, index) => (
+        <Card data={item}></Card>
+      ))}
     </div>
   );
 };
